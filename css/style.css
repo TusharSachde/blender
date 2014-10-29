@@ -1,0 +1,71 @@
+.section {
+    background: #000;
+    background-size: cover;
+    /*    border-bottom: 1px solid #aaa;*/
+}
+.section.intro {
+    background: #000 url(../img/bg1.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.home {
+    background: #000 url(../img/bg2.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.blenders {
+    background: #000 url(../img/bg3.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.priyanka {
+    background: #000 url(../img/bg4.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.tour {
+}
+.section.top {
+    background: #000 url(../img/bg5.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.inspired {
+    background: #000 url(../img/bg6.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.footer {
+    height:120px !important;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1 {
+    font-size: 90px;
+    letter-spacing: 15px;
+    padding-bottom: 20px;
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+body {
+    font-family: "Josefin Sans";
+}
+.content-center {
+    text-align: center;
+}
+.section.intro .content-center {
+    text-align: center;
+    padding: 14% 0;
+}
+.section.intro .scroll {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    right: 0px;
+}
